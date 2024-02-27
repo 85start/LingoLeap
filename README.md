@@ -1,3 +1,19 @@
+# Introducing LingoLeap! 
+
+## Imagine Duolingo meets the workplace. 
+
+Meet LingoLeap, a web application designed to bridge the gap for underrepresented communities entering the tech industry. Our core values are L.E.A.P: Learn, Empower, Adapt, Productivity. 
+
+With lessons for technical terms, on-the-go review, and interview prep for soft skills, LingoLeap is more than just an educational tool; it's a lifeline. It's built on the understanding that knowledge of office jargon, interview procedures, and professional etiquette is not just beneficial but essential for career advancement. 
+
+## We hope to target the niche area of providing education for the linguistic and behavioral nuances of the tech industry. 
+
+Our target users are underrepresented college students who face hurdles like a lack of resources, racial, socioeconomic, and gender imbalance, exclusivity in networking opportunities, and the pervasive imposter syndrome. Join our journey into helping students LEAP into the technical industry. 
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
