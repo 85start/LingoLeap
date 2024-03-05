@@ -5,7 +5,7 @@ export default function Community(){
 
 return(
 <div> 
-   <p> hi </p>
+   <p> Community </p>
 </div>
 )
 

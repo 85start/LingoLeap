@@ -5,7 +5,7 @@ export default function InterviewPrep(){
 
 return(
 <div> 
-   <p> hi </p>
+   <p> Interview Prep </p>
 </div>
 )
 

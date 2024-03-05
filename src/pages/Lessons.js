@@ -5,7 +5,7 @@ export default function Lessons(){
 
 return(
 <div> 
-   <p> hi </p>
+   <p> Lessons </p>
 </div>
 )
 
