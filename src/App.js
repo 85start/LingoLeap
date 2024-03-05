@@ -14,10 +14,10 @@ function App() {
       <nav>
         <span>
           <Link to="/"> LingoLeap </Link>
-          <Link to="/community"> Community </Link>
+          {/* <Link to="/community"> Community </Link>
           <Link to="/interviewprep"> InterviewPrep </Link>
           <Link to="/lessons"> Lessons </Link>
-          <Link to="/review"> Review </Link>
+          <Link to="/review"> Review </Link> */}
         </span>
       </nav>
 
