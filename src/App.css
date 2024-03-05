@@ -50,8 +50,14 @@ nav {
   font-weight: 600;
 }
 
+nav .left-nav {
+  margin-right: auto;
+  padding-left: 25px;
+}
+
 nav .right-nav {
-  margin-left: auto
+  margin-left: auto;
+  padding-right: 25px;
 }
 
 .Home {

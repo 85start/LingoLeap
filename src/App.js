@@ -12,13 +12,20 @@ function App() {
     <Router>
     <div className="App">
       <nav>
-        <span>
-          <Link to="/"> LingoLeap </Link>
-          <Link to="/community"> Community </Link>
-          <Link to="/interviewprep"> InterviewPrep </Link>
-          <Link to="/lessons"> Lessons </Link>
-          <Link to="/review"> Review </Link>
-        </span>
+        <div className="left-nav">
+          <span>
+              <Link to="/"> LingoLeap </Link>
+          </span>
+        </div>
+        <div className="right-nav">
+          <span>
+            <Link to="/"> Home </Link>
+            <Link to="/community"> Community </Link>
+            <Link to="/interviewprep"> InterviewPrep </Link>
+            <Link to="/lessons"> Lessons </Link>
+            <Link to="/review"> Review </Link>
+          </span>
+        </div>
       </nav>
 
         <Routes> 
