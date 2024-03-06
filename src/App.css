@@ -52,9 +52,24 @@ nav {
   margin: auto;
 }
 
-/* nav .right-nav {
-  margin-left: auto
-} */
+nav .left-nav {
+  margin-right: auto;
+  padding-left: 25px;
+}
+
+nav .left-nav {
+  margin-right: auto;
+  padding-left: 25px;
+}
+
+nav .right-nav {
+  margin-left: auto;
+  padding-right: 25px;
+}
+
+.Home {
+  font-size: 4rem;
+}
 
 a {
   color: white;
