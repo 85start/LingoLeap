@@ -12,21 +12,20 @@ function App() {
     <Router>
     <div className="App">
       <nav>
-        <div className="left-nav">
+        <div className="nav">
           <span>
               <Link to="/"> LingoLeap </Link>
           </span>
         </div>
-        {/* <div className="right-nav">
+      </nav>
+      <div className="home-links">
           <span>
-            <Link to="/"> Home </Link>
             <Link to="/community"> Community </Link>
-            <Link to="/interviewprep"> InterviewPrep </Link>
+            <Link to="/interviewprep"> Interview Prep </Link>
             <Link to="/lessons"> Lessons </Link>
             <Link to="/review"> Review </Link>
           </span>
-        </div> */}
-      </nav>
+      </div> 
 
         <Routes> 
           <Route path = "/" element = {<Home />}></Route>
