@@ -17,7 +17,7 @@ function App() {
               <Link to="/"> LingoLeap </Link>
           </span>
         </div>
-        <div className="right-nav">
+        {/* <div className="right-nav">
           <span>
             <Link to="/"> Home </Link>
             <Link to="/community"> Community </Link>
@@ -25,7 +25,7 @@ function App() {
             <Link to="/lessons"> Lessons </Link>
             <Link to="/review"> Review </Link>
           </span>
-        </div>
+        </div> */}
       </nav>
 
         <Routes> 

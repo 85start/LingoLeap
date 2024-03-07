@@ -38,12 +38,12 @@
 }
 
 nav {
-  margin: 0;
+  margin: auto;
   width: 100%;
   height: 70px;
   background-color: #8CCFFF;
-  display: block;
-  /* justify-content: right; */
+  display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   text-decoration: none;
@@ -52,15 +52,10 @@ nav {
   margin: auto;
 }
 
-nav .left-nav {
+/* nav .left-nav {
   margin-right: auto;
   padding-left: 25px;
-}
-
-nav .left-nav {
-  margin-right: auto;
-  padding-left: 25px;
-}
+} */
 
 nav .right-nav {
   margin-left: auto;
