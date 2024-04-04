@@ -7,6 +7,7 @@ import Lessons from './pages/Lessons';
 import Review from './pages/Review'; 
 import './App.css';
 import './fonts.css';
+import kangaroo from './images/kangaroo.png';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           <div className="nav">
             <span>
                 <Link to="/"> LingoLeap </Link>
+                <Link to="/">
+                  <img src={kangaroo} alt="LingoLeap Mascot" style={{ width: '90px' }} />
+                </Link>
             </span>
           </div>
         </nav>
