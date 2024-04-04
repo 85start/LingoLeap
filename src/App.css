@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  /* background-color: #E2BFE0; */
 }
 
 .App-logo {
@@ -41,7 +40,6 @@
 
 nav {
   padding-top: 20px;
-  padding-bottom: 30px;
   width: 100%;
   height: 100px;
   /* background-color: #E2BFE0; */
@@ -79,4 +77,8 @@ a {
 
 a:hover {
   color: #66696d;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }

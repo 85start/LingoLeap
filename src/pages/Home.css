@@ -4,22 +4,69 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    padding-top: 100px;
   }
-  
-  .home-links a {
-    height: 10rem;
-    width: calc(100% * (1/3) - 10px - 1px);
-    text-align: center;
-    align-content: center;
-    border: 1px solid #cccccc00; /* using border for better visibility */
-    box-shadow: 5px 5px 5px #00000052;
-    box-sizing: border-box;
-    background-color: #FFE2FA;
-    border-radius: 35px; /* make rounded squares */
-    color: black;
-    font-size: 20px;
-    font-weight: 500;
-    font-style: normal;
-    margin-bottom: 30px; /* vertical spacing between links */
-    margin-right: 30px;
-  }
+
+.home-links a {
+  height: 10rem;
+  width: calc(100% * (1/3) - 10px - 1px);
+  text-align: center;
+  align-content: center;
+  border: 1px solid #cccccc00; /* using border for better visibility */
+  box-shadow: 5px 5px 5px #00000052;
+  box-sizing: border-box;
+  background-color: #FFE2FA;
+  border-radius: 35px; /* make rounded squares */
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 30px; /* vertical spacing between links */
+  margin-right: 30px;
+}
+
+.startButton {
+  position: absolute;
+  top: 80%;
+  left: 63%;
+  width: 280px; /* Adjust the width as desired */
+  height: 60px; /* Adjust the height as desired */
+  background-color: #FFE2FA; /* Change the background color */
+  border: 1px solid #cccccc00; /* using border for better visibility */
+  box-shadow: 5px 5px 5px #00000052;
+  border-radius: 20px; /* make rounded squares */
+  font-size: 30px;
+  font-weight: 500;
+  display: flex; /* Ensure flexbox layout */
+  justify-content: center; /* Center the text horizontally */
+  align-items: center; /* Center the text vertically */
+  font-family: 'Poppins', sans-serif;
+}
+
+.startButton:hover {
+  background-color: #c6b0c5; /* Change the background color on hover */
+}
+
+.rectangle {
+  position: absolute;
+  top: 20%;
+  left: -20%;
+  width: 60%;
+  height: 80%; 
+  background-color: #E2BFE0;
+  border-radius: 40%;
+  z-index: -1; /* Set a negative z-index to move it farther back */
+}
+
+.circle {
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  width: 50%; /* Set width to 50% of the container's width */
+  height: 100%; 
+  background-color: #E2BFE0;
+  border-radius: 50%;
+  z-index: -1; /* Set a negative z-index to move it farther back */
+}
+
