@@ -6,27 +6,20 @@ import InterviewPrep from './pages/InterviewPrep';
 import Lessons from './pages/Lessons'; 
 import Review from './pages/Review'; 
 import './App.css';
+import './fonts.css';
 
 function App() {
   return (
     <Router>
-    <div className="App">
-      <nav>
-        <div className="nav">
-          <span>
-              <Link to="/"> LingoLeap </Link>
-          </span>
-        </div>
-      </nav>
-      <div className="home-links">
-          <span>
-            <Link to="/community"> Community </Link>
-            <Link to="/interviewprep"> Interview Prep </Link>
-            <Link to="/lessons"> Lessons </Link>
-            <Link to="/review"> Review </Link>
-          </span>
-      </div> 
-
+      <div className="App">
+        <nav>
+          <div className="nav">
+            <span>
+                <Link to="/"> LingoLeap </Link>
+            </span>
+          </div>
+        </nav>
+        
         <Routes> 
           <Route path = "/" element = {<Home />}></Route>
           <Route path = "/community" element = {<Community />}></Route> 
@@ -34,9 +27,11 @@ function App() {
           <Route path = "/lessons" element = {<Lessons />}></Route>
           <Route path = "/review" element = {<Review />}></Route>
         </Routes>
+
     </div>
     </Router>
   );
 }
 
 export default App;
+
